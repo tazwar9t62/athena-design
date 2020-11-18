@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MainNav from './Components/Header/MainNav/MainNav';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <>
-    <MainNav/>
+    <Header/>
     </>
   );
 }

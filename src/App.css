@@ -7,9 +7,17 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) -- This would display the text at 10.0rem on laptops and larger screens */
+
+@media only screen and (min-width: 992px) {
+  h2 {
+    font-size: 10rem;
   }
 }
 
@@ -45,10 +53,20 @@
   width: 8rem;
   height: 3rem;
   background-image: linear-gradient(150deg, #2af598 0%, #009efd 100%);
-  border-radius: 30% 0 30% 0 !important;
+  border-radius: 40% 0 40% 0 !important;
   color: white !important;
   padding: 1rem;
 }
 .btn-brand:hover {
   background-image: linear-gradient(150deg, #009efd 0%, #2af598 100%);
+}
+.brand-title {
+  font-family: "Yeseva One", cursive;
+  color: #0d052e;
+  text-align: left;
+}
+.header-container {
+  background-image: url("https://i.ibb.co/fQnMjtH/Group-46-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
