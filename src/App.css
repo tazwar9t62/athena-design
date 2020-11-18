@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-toggler-icon {
+  background-image: url("https://svgshare.com/i/RbD.svg");
+}
+
+.btn-brand {
+  width: 8rem;
+  height: 3rem;
+  background-image: linear-gradient(150deg, #2af598 0%, #009efd 100%);
+  border-radius: 30% 0 30% 0 !important;
+  color: white !important;
+  padding: 1rem;
+}
+.btn-brand:hover {
+  background-image: linear-gradient(150deg, #009efd 0%, #2af598 100%);
+}
