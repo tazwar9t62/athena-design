@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../Components/Contact/Contact';
 import Header from '../Components/Header/Header';
 import Services from '../Components/Services/Services';
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Header/>
             <Services/>
+            <Contact/>
         </div>
     );
 };

@@ -7,8 +7,8 @@ const SingleService = ({sData}) => {
     return (
         <div className="mt-5">           
                 <div className="d-flex justify-content-between ">
-                <div className="col-md-3 p-5">
-                <Card className="text-center border-0" style={{ width: '18rem' }}>
+                <div className="col-md-3  p-5">
+                <Card className="text-center service-card-container p-5" style={{ width: '18rem' }}>
   <Card.Img className="w-25 mx-auto d-block" variant="top" src={image} />
   <Card.Body >
     <Card.Title>{title}</Card.Title>
