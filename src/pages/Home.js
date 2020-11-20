@@ -1,4 +1,5 @@
 import React from 'react';
+import Achievements from '../Components/Achievements/Achievements';
 import Contact from '../Components/Contact/Contact';
 import FooterPart from '../Components/FooterPart/FooterPart';
 import GetDesign from '../Components/GetDesign/GetDesign';
@@ -12,6 +13,7 @@ const Home = () => {
             <Header/>
             <Services/>
             <Contact/>
+            <Achievements/>
             <Pricing/>
             <GetDesign/>
             <FooterPart/>
