@@ -7,7 +7,7 @@ const Contact = () => {
                 <img src="https://i.ibb.co/JqGW462/20-Converted-2x.png" className="fluid p-4 w-100" />
             </div>
                 <div className="col-md-6 col-sm-12 px-4">
-                    <div className="   align-items-center">
+                    <div className="justify-content-centerd-flex align-item-center">
                     <h2 className="brand-title ">Stay running & project</h2>
                     <>
                     <small className="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen</small> <br/>
