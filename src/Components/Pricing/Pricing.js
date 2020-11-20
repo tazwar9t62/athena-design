@@ -1,79 +1,76 @@
 import React from 'react';
+import { Card, CardDeck, Container } from 'react-bootstrap';
 
 const Pricing = () => {
-    return (
-        <>
-       <section className="pricing py-5">
-  <div className="container">
-    <div className="row">
-     
-      <div className="col-lg-4">
-        <div className="card mb-5 mb-lg-0">
-          <div className="card-body">
-            <h5 className="card-title text-muted text-uppercase text-center">Free</h5>
-            <h6 className="card-price text-center">$0<span className="period">/month</span></h6>
-            <hr>
-            <ul className="fa-ul">
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>Single User</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>5GB Storage</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Public Projects</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>Community Access</li>
-              <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Unlimited Private Projects</li>
-              <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Dedicated Phone Support</li>
-              <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Free Subdomain</li>
-              <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Monthly Status Reports</li>
-            </ul>
-            <a href="#" className="btn btn-block btn-primary text-uppercase">Button</a>
-          </div>
-        </div>
-      </div>
-     
-      <div className="col-lg-4">
-        <div className="card mb-5 mb-lg-0">
-          <div className="card-body">
-            <h5 className="card-title text-muted text-uppercase text-center">Plus</h5>
-            <h6 className="card-price text-center">$9<span className="period">/month</span></h6>
-            <hr>
-            <ul className="fa-ul">
-              <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>5 Users</strong></li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>50GB Storage</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Public Projects</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>Community Access</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Private Projects</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>Dedicated Phone Support</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>Free Subdomain</li>
-              <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Monthly Status Reports</li>
-            </ul>
-            <a href="#" className="btn btn-block btn-primary text-uppercase">Button</a>
-          </div>
-        </div>
-      </div>
-      
-      <div className="col-lg-4">
-        <div className="card">
-          <div className="card-body">
-            <h5 className="card-title text-muted text-uppercase text-center">Pro</h5>
-            <h6 className="card-price text-center">$49<span className="period">/month</span></h6>
-            <hr>
-            <ul className="fa-ul">
-              <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>Unlimited Users</strong></li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>150GB Storage</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Public Projects</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>Community Access</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Private Projects</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>Dedicated Phone Support</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>Unlimited</strong> Free Subdomains</li>
-              <li><span className="fa-li"><i className="fas fa-check"></i></span>Monthly Status Reports</li>
-            </ul>
-            <a href="#" className="btn btn-block btn-primary text-uppercase">Button</a>
-          </div>
-        </div>
-      </div>
+  return (
+   
+    <div className="p-5 m-2 text-center">
+       <Container className="mt-5">
+       <h2 className="brand-title text-center mb-5">Choose You Package</h2>
+      </Container>
+      <CardDeck>
+  <Card className="px-5 border-0">
+  <Card.Body className="shadow p-5 card-hover">
+      <Card.Title className="font-weight-bold card-title-border"><h1>$199</h1><small>For Basic</small></Card.Title>
+      <Card.Text>
+      <ul class="list-group">
+  <li class="list-group-item border-0">Homepage</li>
+  <li class="list-group-item border-0">No Inner Page</li>
+  <li class="list-group-item border-0">Asset File</li>
+  <li class="list-group-item border-0">Source File</li>
+  <li class="list-group-item border-0">Free Stock Photos</li>
+  <li class="list-group-item border-0">10 Days Free Support</li>
+  <li class="list-group-item border-0">24/7 Support</li>
+  
+</ul>
+      </Card.Text>
+      <button className="btn btn-brand  m-2">Order Now</button>
+    </Card.Body>
+    
+  </Card>
+  <Card className="px-5 border-0">
+   
+    <Card.Body className="shadow p-5 card-hover">
+      <Card.Title className="font-weight-bold card-title-border"><h1>$399</h1><small>For Preferred</small></Card.Title>
+      <Card.Text>
+      <ul class="list-group">
+  <li class="list-group-item border-0">Homepage</li>
+  <li class="list-group-item border-0">4 Inner Page</li>
+  <li class="list-group-item border-0">Asset File</li>
+  <li class="list-group-item border-0">Source File</li>
+  <li class="list-group-item border-0">Free Stock Photos</li>
+  <li class="list-group-item border-0">20 Days Free Support</li>
+  <li class="list-group-item border-0">24/7 Support</li>
+  
+</ul>
+      </Card.Text>
+      <button className="btn btn-brand  m-2">Order Now</button>
+    </Card.Body>
+    
+  </Card>
+  <Card className="px-5 border-0"> 
+   
+  <Card.Body className="shadow p-5 card-hover">
+      <Card.Title className="font-weight-bold card-title-border"><h1>$599</h1><small>For Elite</small></Card.Title>
+      <Card.Text>
+      <ul class="list-group">
+  <li class="list-group-item border-0">Homepage</li>
+  <li class="list-group-item border-0">8 Inner Page</li>
+  <li class="list-group-item border-0">Asset File</li>
+  <li class="list-group-item border-0">Source File</li>
+  <li class="list-group-item border-0">Free Stock Photos</li>
+  <li class="list-group-item border-0">30 Days Free Support</li>
+  <li class="list-group-item border-0">24/7 Support</li>
+  
+</ul>
+      </Card.Text>
+      <button className="btn btn-brand  m-2">Order Now</button>
+    </Card.Body>
+   
+  </Card>
+</CardDeck>
     </div>
-  </div>
-</section>
-        </>
-    );
+  );
 };
 
 export default Pricing;
